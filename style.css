@@ -1,16 +1,25 @@
 #square {
     width: 100px;
     height: 100px;
-    background: red;
+    background-color: red;
 }
 #rectangle {
     width: 200px;
     height: 100px;
-    background: blue;
+    background-color: blue;
+}
+@keyframes circle {
+    0% {background-color: green;}
+    33% {background-color: yellow;}
+    67% {background-color: red;}
+    100% {background-color: green;}
 }
 #circle {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background: green;
+    background-color: green;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
