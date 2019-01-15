@@ -1,6 +1,14 @@
+@keyframes square {
+    0% {background-color: red; }
+    25% {;}
+    50% {;}
+    75% {;}
+    100% {;}
+}
 #square {
     width: 100px;
     height: 100px;
+    /*animation-direction: alternate;*/
     background-color: red;
 }
 @keyframes rectangle {
