@@ -3,3 +3,14 @@
     height: 100px;
     background: red;
 }
+#rectangle {
+    width: 200px;
+    height: 100px;
+    background: blue;
+}
+#circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: green;
+}
