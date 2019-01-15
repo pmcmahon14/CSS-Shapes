@@ -1,16 +1,3 @@
-@keyframes square {
-    0% {background-color: red; }
-    25% {;}
-    50% {;}
-    75% {;}
-    100% {;}
-}
-#square {
-    width: 100px;
-    height: 100px;
-    /*animation-direction: alternate;*/
-    background-color: red;
-}
 @keyframes rectangle {
     0% {left: 0px;}
     50% {left: 400px;}
@@ -55,19 +42,4 @@
     animation: rectangle 4s infinite;
     animation-timing-function: ease-in-out;
     background-color: purple;
-}
-@keyframes circle {
-    0% {background-color: green;}
-    33% {background-color: yellow;}
-    67% {background-color: red;}
-    100% {background-color: green;}
-}
-#circle {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background-color: green;
-    animation-name: circle;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
 }
