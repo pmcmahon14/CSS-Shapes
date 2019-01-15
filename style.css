@@ -3,10 +3,50 @@
     height: 100px;
     background-color: red;
 }
-#rectangle {
-    width: 200px;
-    height: 100px;
+@keyframes rectangle {
+    0% {left: 0px;}
+    50% {left: 400px;}
+    100% {left: 0px;}
+}
+#rectangle1 {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    animation: rectangle 4s infinite;
+    animation-timing-function: ease-in;
+    background-color: red;
+}
+#rectangle2 {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    animation: rectangle 4s infinite;
+    animation-timing-function: ease-out;
+    background-color: yellow;
+}
+#rectangle3 {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    animation: rectangle 4s infinite;
+    animation-timing-function: ease;
+    background-color: green;
+}
+#rectangle4 {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    animation: rectangle 4s infinite;
+    animation-timing-function: linear;
     background-color: blue;
+}
+#rectangle5 {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    animation: rectangle 4s infinite;
+    animation-timing-function: ease-in-out;
+    background-color: purple;
 }
 @keyframes circle {
     0% {background-color: green;}
